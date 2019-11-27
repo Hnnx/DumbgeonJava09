@@ -80,10 +80,7 @@ public class MainGame {
 					if (archHP == 0) {
 						System.out.println(archName+ " died, "+cod);
 						System.out.println("\nYou never left the dungeon");
-						progress = false;
-						lvlchoice = false;
-						encounter = false;
-						break;			
+						System.exit(0);
 					}					
 				}
 
@@ -94,10 +91,7 @@ public class MainGame {
 					if (knightHP == 0) {
 						System.out.println(knigName+ " Died, "+cod);
 						System.out.println("\nYou never left the dungeon");
-						encounter = false;
-						progress = false;
-						lvlchoice = false;
-						break;												
+						System.exit(0);											
 					}					
 				}				
 				else {
